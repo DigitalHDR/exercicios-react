@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import ComponentClasse from './componentes/ComponenteClasse'
+import Contador from './componentes/Contador'
+// import ComponentClasse from './componentes/ComponenteClasse'
 // import Familia from './componentes/Familia'
 // import Membro from './componentes/Membro'
 // import FamiliaSilva from './componentes/FamiliaSilva'
@@ -10,7 +11,8 @@ import ComponentClasse from './componentes/ComponenteClasse'
 
 ReactDOM.render(
     <React.Fragment>
-        <ComponentClasse  />
+        <Contador numero={0} />
+        {/* <ComponentClasse  /> */}
         {/* <Familia sobrenome="Pereira" numero={123}>
             <Membro nome="Andre" />
             <Membro nome="Mariana"/>
